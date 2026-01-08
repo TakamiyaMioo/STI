@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Apr 16 18:04:53 2018
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+Revision Name : frequency_meter
+Top-level Entity Name : top
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 594 / 6,272 ( 9 % )
+    Total combinational functions : 581 / 6,272 ( 9 % )
+    Dedicated logic registers : 418 / 6,272 ( 7 % )
+Total registers : 418
+Total pins : 8 / 92 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

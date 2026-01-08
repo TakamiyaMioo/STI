@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Apr 16 18:04:42 2018
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+Revision Name : frequency_meter
+Top-level Entity Name : top
+Family : Cyclone IV E
+Total logic elements : 698
+    Total combinational functions : 581
+    Dedicated logic registers : 418
+Total registers : 418
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"ad9833_103test\startup_stm32f103xb.o"
+"ad9833_103test\ad9833.o"
+"ad9833_103test\main.o"
+"ad9833_103test\gpio.o"
+"ad9833_103test\tim.o"
+"ad9833_103test\usart.o"
+"ad9833_103test\stm32f1xx_it.o"
+"ad9833_103test\stm32f1xx_hal_msp.o"
+"ad9833_103test\stm32f1xx_hal_gpio_ex.o"
+"ad9833_103test\stm32f1xx_hal_tim.o"
+"ad9833_103test\stm32f1xx_hal_tim_ex.o"
+"ad9833_103test\stm32f1xx_hal.o"
+"ad9833_103test\stm32f1xx_hal_rcc.o"
+"ad9833_103test\stm32f1xx_hal_rcc_ex.o"
+"ad9833_103test\stm32f1xx_hal_gpio.o"
+"ad9833_103test\stm32f1xx_hal_dma.o"
+"ad9833_103test\stm32f1xx_hal_cortex.o"
+"ad9833_103test\stm32f1xx_hal_pwr.o"
+"ad9833_103test\stm32f1xx_hal_flash.o"
+"ad9833_103test\stm32f1xx_hal_flash_ex.o"
+"ad9833_103test\stm32f1xx_hal_exti.o"
+"ad9833_103test\stm32f1xx_hal_uart.o"
+"ad9833_103test\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ad9833_103test\ad9833_103test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ad9833_103test.map" -o ad9833_103test\ad9833_103test.axf
